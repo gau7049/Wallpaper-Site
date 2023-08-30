@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./Images/android-chrome-192x192.png">
+    <title>Recover Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: rgb(39, 42, 42);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        li input{
+            height: 40px;
+            width: 500px;
+            border-radius: 10px;
+            font-size: larger;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        .login{
+            color: aliceblue;
+            font-size:xx-large;
+            margin-left: 1500px;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+
+        ul .login:hover{
+            cursor: pointer;
+        }
+
+        ::placeholder{
+            text-align: center;
+        }
+        
+        form{
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        button{
+            font-size: xx-large;
+            width: 200px;
+            padding: 10px;
+            background-color:azure;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color:aqua;
+        }
+
+        fieldset{
+            display: inline;
+            padding: 50px;
+            padding-left: 80px;
+            padding-right: 100px;
+            background-color: rgb(66, 39, 66);
+            border-radius: 10px;
+            color:aliceblue;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        input{
+            height: 40px;
+            width: 300px;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="area">
+        <ul type="none" class = "circle">
+            <li><img src="./Images/android-chrome-192x192.png" height="100px" width="100px"></li>
+            <li><input type="search" placeholder="search"></li>x`
+        </ul>
+    </header>
+        <br><br>
+        <form>
+            <fieldset>
+                <h1>Recover Account</h1><br>
+                <img src="./Images/android-chrome-192x192.png" alt="website icon" height="200px"> <br><br>
+                <label for="eml">Email: </label>
+                <input type="email" id="eml" required> <br><br>
+                <b>OR</b><br><br>
+                <label for="ph">Phone: </label>
+                <input type="tel" id="ph" maxlength="10" minlength="10" required>
+                <br><br><br>
+                <button><a href="./verify.html" style="text-decoration: none; color: black;">Verify</a></button> <br><br>
+                <br>
+            </fieldset>
+        </form>
+
+</body>
+</html>

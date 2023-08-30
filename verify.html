@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover Account</title>
+    <link rel="icon" href="./Images/android-chrome-192x192.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        input{
+            height: 40px;
+            width: 300px;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-size: 25px;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color:aqua;
+        }
+
+        ::placeholder{
+            text-align: center;
+        }
+
+        li input{
+            height: 40px;
+            width: 500px;
+            border-radius: 10px;
+            font-size: larger;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        header{
+            background-color: rgb(39, 42, 42);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        fieldset{
+            display: inline;
+            padding: 50px;
+            padding-left: 80px;
+            padding-right: 100px;
+            background-color: rgb(66, 39, 66);
+            border-radius: 10px;
+            color:aliceblue;
+            box-shadow: 10px 10px 10px black;
+        }
+        form{
+            font-size: xx-large;
+            text-align: center;
+        }
+        button{
+            font-size: xx-large;
+            width: 200px;
+            padding: 10px;
+            background-color:azure;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="area">
+        <ul type="none" class = "circle">
+            <li><img src="./Images/android-chrome-192x192.png" height="100px" width="100px"></li>
+            <li><input type="search" placeholder="search"></li>x`
+        </ul>
+    </header>
+
+    <br><br>
+        <form>
+            <fieldset>
+                <h1>Recover Account</h1><br>
+                <img src="./Images/android-chrome-192x192.png" alt="website icon" height="200px"> <br><br>
+                <label for="otp">OTP: </label>
+                <input type="number" id="otp" maxlength="4" minlength="4" required>
+                <br><br><br>
+                <button><a href="./reset_pswd.html" style="text-decoration: none; color: black;">Verify</a></button> <br><br>
+                <br>
+            </fieldset>
+        </form>
+</body>
+</html>

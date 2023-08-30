@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./Images/android-chrome-192x192.png">
+    <title>Nav-Bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: aliceblue;
+        }
+
+        header{
+            background-color: rgb(39, 42, 42);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        li input{
+            height: 40px;
+            width: 500px;
+            border-radius: 10px;
+            font-size: larger;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        .login{
+            color: aliceblue;
+            font-size:xx-large;
+            margin-left: 1500px;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+
+        ul .login:hover{
+            cursor: pointer;
+        }
+
+        ::placeholder{
+            text-align: center;
+        }
+        
+        form{
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        button{
+            font-size: xx-large;
+            width: 200px;
+            padding: 10px;
+            background-color:azure;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color:aqua;
+        }
+
+        fieldset{
+            display: inline;
+            padding: 50px;
+            padding-left: 80px;
+            padding-right: 100px;
+            background-color: rgb(66, 39, 66);
+            border-radius: 10px;
+            color: black;
+            box-shadow: 10px 10px 10px;
+        }
+
+        input{
+            height: 40px;
+            width: 300px;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-size: 22px;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <ul type="none">
+            <li><img src="./Images/android-chrome-192x192.png" height="100px" width="100px"></li>
+            <li><input type="search" placeholder="search"></li>
+        </ul>
+    </header>
+        <br><br><br><br><br>
+        <form>
+            <fieldset>
+                <h1>Login Page</h1><br>
+                <img src="./Images/android-chrome-192x192.png" alt="website icon" height="200px"> <br><br>
+                <label for="eml">Email: </label>
+                <input type="email" id="eml" required> <br><br>
+                <label for="pswd">Password: </label>
+                <input type="Password" id="pswd" required>
+                <br><br><br>
+                <button><a href="./main_pg.html" style="text-decoration: none; color: black;">Log in</a></button> <br><br>
+                <a href="./forget_pswd.html" style="text-decoration: none;">Forget Password ?</a>
+                <br>
+            </fieldset>
+        </form>
+
+</body>
+</html>

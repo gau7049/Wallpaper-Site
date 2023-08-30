@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../Images/android-chrome-192x192.png">
+    <title>Wallpaper</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            color: aliceblue;
+        }
+        body{
+            background-color: black;
+            animation: color 5s infinite linear;
+            /* transition: animation 0.1s; */
+        }
+        header{
+            background-color: rgb(39, 42, 42);
+            opacity: 0.6;
+        }
+        header:hover{
+            opacity: 1;
+        }
+        ul{
+            display: flex;
+        }
+        li input{
+            color: black;
+            height: 40px;
+            width: 500px;
+            border-radius: 10px;
+            font-size: 30px;
+            padding-left: 20px;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+        .login{
+            color: aliceblue;
+            font-size:xx-large;
+            margin-left: 1500px;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+        ul .login:hover{
+            cursor: pointer;
+        }
+        ::placeholder{
+            text-align: center;
+        }
+        b{
+            font-size: 50px;
+            color: rgb(110, 110, 110);
+        }
+        p{
+            font-size: xxx-large;
+        }
+        .btn{
+            height: 100px;
+            width: 500px;
+            background-color: rgb(66, 39, 66);
+            font-size: xx-large;
+            margin-top: 850px;
+            margin-left: 1800px;
+            border-radius: 10px;
+            opacity: 0.7;
+        }
+
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        marquee{
+            background-color: rgb(10, 10, 16);
+            opacity: 0.5;
+            font-style: bold;
+        }
+        @keyframes color {
+        0%  { background-image: url("./Images/r4.jpg"); background-size: cover;}
+        40%  { background-image: url("./Images/r5.jpg"); background-size: cover;}
+        100% { background-image: url("./Images/r6.webp"); background-size: cover;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul type="none">
+            <li><img src="./Images/android-chrome-192x192.png" height="100px" width="100px"></li>
+            <li><input type="search" placeholder="search"></li>
+            <li class = "login"><pre><a href="./log_in.html">Log in</a> | <a href="./sign_up.html">SignUp</a> </pre></li>
+        </ul>
+    </header>
+    <marquee>
+        <p><q><b>This website under process So Please co-operate with us..</b></q></p>
+    </marquee>
+
+    <button class = "btn"><a href="./log_in.html">Click here for next page </button></a>
+</body>
+</html>
