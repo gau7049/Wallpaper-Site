@@ -15,6 +15,7 @@
 body{
     animation: color 15s infinite linear;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    /* background-color: black; */
 }
 
 header{
@@ -108,6 +109,10 @@ button:active{
 /* 1280  1024 912 768 820*/
 @media (min-width: 820px) and (max-width: 1281px){
 
+    body{
+        background-color: black;
+    }
+
     @keyframes color {
     0% {
         /* background-color: black; */
@@ -141,25 +146,28 @@ button:active{
 }
 
 @media (max-width: 912px){
+    body{
+        background-color: black;
+    }
     @keyframes color {
         0% {
             /* background-color: black; */
             background-image: url('./Images/hi5.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 100% 1370px;
+            background-size: 100% 870px;
         }
         40% {
             background-image: url('./Images/hi5.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 100% 1370px;
+            background-size: 100% 870px;
         }
         100% {
             background-image: url('./Images/hi5.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            background-size: 100% 1370px;
+            background-size: 100% 870px;
         }
     }
     header{
@@ -175,6 +183,33 @@ button:active{
     button > a{
         font-size: x-large;
         /* background-color: #23a6d5; */
+    }
+}
+
+@media (max-width: 414px){
+    body{
+        background-color: black;
+    }
+    @keyframes color {
+        0% {
+            /* background-color: black; */
+            background-image: url('./Images/hi5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 800px;
+        }
+        40% {
+            background-image: url('./Images/hi5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 800px;
+        }
+        100% {
+            background-image: url('./Images/hi5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 800px;
+        }
     }
 }
 
