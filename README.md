@@ -1,6 +1,6 @@
 # Wallpaper Site
 
-🌐 Explore the Wallpaper Site [Demo](https://gau7049.github.io/Wallpaper-site/)
+🌐 Explore the Wallpaper Site [Demo](https://gau7049.github.io/Wallpaper-Site/)
 
 ## 💡 Designed Pages
 
